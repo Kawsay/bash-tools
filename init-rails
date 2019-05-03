@@ -1,0 +1,8 @@
+#!/bin/bash
+# init-rails
+# A simple script to perform basic tasks required to build a rails app' DB
+
+rails db:create
+rails db:migrate
+rails db:seed
+rails s
